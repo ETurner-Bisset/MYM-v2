@@ -1,0 +1,25 @@
+.container {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas: 'options' 'meds';
+}
+
+.options {
+  grid-area: options;
+}
+
+.meds {
+  grid-area: meds;
+}
+
+@media (min-width: 67.5rem) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 'meds options' 'meds options';
+  }
+
+  .options p {
+    margin-bottom: 2rem;
+  }
+}

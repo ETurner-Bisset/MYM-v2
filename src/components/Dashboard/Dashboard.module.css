@@ -1,0 +1,63 @@
+.header {
+  grid-area: header;
+  background-color: var(--main-blue);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+  position: fixed;
+  z-index: 150;
+  border-bottom: 1px solid var(--background-color);
+}
+
+.header button {
+  background-color: transparent;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--background-color);
+  display: flex;
+  align-items: center;
+}
+
+.header a {
+  background-color: transparent;
+  color: var(--background-color);
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-right: 0.3rem;
+}
+
+.header button:hover,
+.header a:hover {
+  color: var(--text-color);
+}
+
+.ul {
+  display: none;
+  margin: 0;
+}
+
+@media (min-width: 42rem) {
+  .ul {
+    grid-area: dash;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: var(--main-blue);
+    width: 15rem;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  .header button {
+    display: none;
+  }
+}
+
+.ul li:nth-of-type(1) {
+  margin-top: 5rem;
+}

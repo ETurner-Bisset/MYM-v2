@@ -1,0 +1,17 @@
+.ul {
+  height: 100%;
+  min-width: 12rem;
+  width: 50%;
+  background-color: var(--main-blue);
+  margin: 0;
+  position: fixed;
+  top: 3rem;
+  left: 0;
+  z-index: 150;
+}
+
+@media (min-width: 42rem) {
+  .ul {
+    display: none;
+  }
+}

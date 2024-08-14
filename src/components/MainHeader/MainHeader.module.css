@@ -1,0 +1,12 @@
+.header {
+  margin: 1rem auto 0;
+}
+
+.header h1 {
+  display: flex;
+  align-items: center;
+}
+
+.header h1 svg {
+  margin-left: 0.5rem;
+}

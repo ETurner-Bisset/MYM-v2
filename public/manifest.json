@@ -1,0 +1,52 @@
+{
+  "name": "Manage Your Meds",
+  "short_name": "MYM",
+  "description": "Set up and manage reminders to order your prescriptions and take your medications.",
+  "theme_color": "#1e2dfc",
+  "background_color": "#c7dcff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icons/android-chrome-1512x1512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icons/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "splash_pages": null,
+  "screenshots": [
+    {
+      "src": "/images/screenshot-1.png",
+      "type": "image/png",
+      "sizes": "750x1238",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/images/screenshot-2.jpg",
+      "type": "image/jpg",
+      "sizes": "1410x828",
+      "form_factor": "wide"
+    }
+  ]
+}

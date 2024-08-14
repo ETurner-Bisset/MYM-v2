@@ -1,0 +1,13 @@
+.login {
+  width: 90%;
+  max-width: 20rem;
+  margin: 0.5rem auto;
+}
+
+.login a {
+  margin: 0.4rem 0;
+}
+
+.login div {
+  margin: 0.5rem auto;
+}

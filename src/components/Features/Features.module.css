@@ -1,0 +1,35 @@
+.features {
+  grid-area: features;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1rem;
+  max-width: 30rem;
+}
+
+.feature {
+  background-color: var(--main-blue);
+  box-shadow: 2px 2px 2px 4px var(--text-color);
+  border-radius: var(--border-radius);
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.feature div {
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid var(--background-color);
+  padding: 0.2rem;
+}
+
+.feature div svg {
+  font-size: 2rem;
+  color: var(--background-color);
+}
+
+.feature p {
+  color: var(--background-color);
+}

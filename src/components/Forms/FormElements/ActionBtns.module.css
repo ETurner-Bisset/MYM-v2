@@ -1,0 +1,44 @@
+.actions {
+  width: 100%;
+  max-width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+.actions .btn,
+.actions .hidden-form .btn {
+  background-color: var(--main-blue);
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-left: 0.5rem;
+  width: max-content;
+}
+
+.actions button:hover {
+  background-color: #74849f;
+  color: var(--text-color);
+}
+
+.actions button:active {
+  transform: scale(0.8);
+}
+
+.actions .text-btn {
+  color: var(--main-blue);
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.3rem;
+  cursor: pointer;
+  background-color: var(--background-color);
+  border: none;
+}
+
+.actions .text-btn:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}

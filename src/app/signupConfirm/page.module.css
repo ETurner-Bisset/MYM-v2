@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main header {
+  margin-bottom: 2rem;
+}
+
+.main p {
+  max-width: 40rem;
+}

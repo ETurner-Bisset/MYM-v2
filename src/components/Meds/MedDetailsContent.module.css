@@ -1,0 +1,101 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 30rem;
+  background-color: var(--main-blue);
+  border: 1px solid var(--text-color);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 1.4rem;
+}
+
+.section p,
+.section time {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.section p span,
+.section time span {
+  font-weight: normal;
+}
+
+.section time {
+  margin: 0.5rem;
+}
+
+.section form {
+  align-items: center;
+}
+
+.section form button {
+  background-color: var(--background-color);
+}
+
+.section .instructions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align-last: left;
+}
+
+.dose {
+  margin: 0 auto;
+  width: max-content;
+}
+
+.actions {
+  width: 100%;
+  max-width: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+}
+
+.actions button {
+  background-color: var(--main-blue);
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-left: 0.5rem;
+  width: max-content;
+}
+
+.actions button:hover {
+  background-color: #74849f;
+  color: var(--text-color);
+}
+
+.actions button:active {
+  transform: scale(0.8);
+}
+
+.actions .text-btn {
+  color: var(--main-blue);
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.3rem;
+  cursor: pointer;
+  background-color: var(--background-color);
+  border: none;
+}
+
+.actions .text-btn:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+.checkbox {
+  height: 2rem;
+  width: 2rem;
+  margin: 0.3rem auto 0.5rem;
+  accent-color: var(--background-color);
+}

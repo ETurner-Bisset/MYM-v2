@@ -1,0 +1,30 @@
+.form-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 1rem 0.5rem;
+  max-width: 30rem;
+}
+
+.form-actions .btn {
+  background-color: var(--main-blue);
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-left: 0.5rem;
+  width: max-content;
+}
+
+.form-actions div {
+  margin-left: 0.5rem;
+}
+
+.form-actions .btn:active {
+  transform: scale(0.8);
+}
+
+.form-actions .btn:hover {
+  background-color: #74849f;
+  color: var(--text-color);
+}

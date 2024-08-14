@@ -1,0 +1,25 @@
+.li {
+  margin: 2rem 0 1rem 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.li a {
+  color: var(--background-color);
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.li a svg {
+  margin-right: 0.5rem;
+}
+
+.li button {
+  margin: 0 auto;
+}
+
+.noteBtn {
+  margin: 1.5rem auto 1.5rem;
+  list-style-type: none;
+}
